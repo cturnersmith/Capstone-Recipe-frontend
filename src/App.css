@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Homemade+Apple&display=swap');
+
+
+  .pics{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 25px 25px 25px 25px;
+  
+  }
+
+  .Button{
+      display: inline;
+  }
+
+.site-header--logo {
+font-family: 'Luckiest Guy', cursive;
+font-size: 50px;
+border: 10px solid lightgrey;
+background-color: lightgrey;
+padding: 50px 0;
+margin-top: -10px;
+display: flex;
+
+}
+
+
+.site-header--menu{
+    margin: 0 20px;
+    display:flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: 'Luckiest Guy', cursive;
+    margin: -182px 20px 20px 20px;
+    color: black;
+    list-style: none;
+    justify-items: right;
+    text-transform: capitalize;
+    text-decoration: none;
+   
+  
+  }
+
+.site-header{
+font-family: 'Satisfy', cursive;
+
+
+}
+
+.form{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+.login-form{
+    margin: 75px 100px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.register-form {
+    margin: 75px 100px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* padding:10px; */
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+
+.FamilyPic img{
+    max-width:25%;
+    max-height:25%;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-color: silver
+}
+
+.Dropdown {
+    width: 25%;
+    padding:10px;
+    border-radius:10px; 
+}
+
+html {
+    background: #FAF7F2;
+    background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .u-clearfix:before,
+  .u-clearfix:after {
+    content: " ";
+    display: table;
+  }
+  
+  .u-clearfix:after {
+    clear: both;
+  }
+  
+  .u-clearfix {
+    *zoom: 1;
+  }
+  
+  .subtle {
+    color: #aaa;
+  }
+
+  .All-Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0;
+    width: 100px;
+    justify-content: space-around;
+
+  }
+  
+  /* .card-container { 
+    margin: 25px auto 0;
+    position: absolute;
+    width: 692px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-container2{
+    margin: 25px auto 0;
+    position: absolute;
+    width: 692px;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  .card-container3{
+    margin: 25px auto 0;
+    position: absolute;
+    width: 692px;
+    display: inline-block;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+   */
+  .card {
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    display: inline-block;
+   
+  }
+  
+  .card-body {
+    display: inline-block;
+    float: left;
+    width: 310px;
+  }
+  
+  .card-number {
+    margin-top: 15px;
+  }
+  
+  .card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+  }
+  
+  .card-author {
+    display: block;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+  }
+  
+  .card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+  
+  .card-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  
+  .card-read:after {
+    background-color: #b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    width: 75%;
+  }
+  
+  .card-tag {
+    float: right;
+    margin: 5px 0 0;
+  }
+  
+  .card-media {
+    float: right;
+  }
+  
+  .card-shadow {
+    background-color: #fff;
+    box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
+    height: 1px;
+    margin: -1px auto 0;
+    width: 80%;
+    z-index: -1;
+  }
+
+
+  input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+  }
+
+  .profile-form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+  }
+
+  .Homepage h1{
+    font-family: 'Sedgwick Ave', cursive;
+    color: darkred
+  }
+
+  .Homepage h2{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+
+  }
+
+  .About-Container{
+    background: darkred;
+    display: inline-block;
+   
+  }
+
+  /* .Recipe-Container {
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
+    box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
+    border:1px solid #f0f1f3;
+    width: 300px;
+    margin: 50px auto;
+    display: inline-block;
+  } */
+
+  .Recipe-Container {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 20px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #888;
+    font-family: 'Homemade Apple', cursive;
+
+  }
+  
+  /* styling red vertical line */
+  .Recipe-Container::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    background-color: rgba(255,0,0,0.6);
+  }
+  #pattern {
+    height: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+  }
+  
+  /* styling text content */
+  #content {
+    padding-top: 6px;
+    padding-left: 56px;
+    padding-right: 16px;
+    line-height: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+  }
+
+  .Recipe-Container2 {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 20px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #888;
+    font-family: 'Homemade Apple', cursive;
+
+  }
+
+  .Category{ 
+    font-family: 'Fjalla One', sans-serif;
+
+  }
+
