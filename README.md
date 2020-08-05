@@ -5,7 +5,7 @@
 
 **Description:**
 
-Buzy Moms Recipe app is a full stack application inspired by hardworkding mothers who have to juggle a career and kids.
+Buzy Moms Recipe app is a full stack application inspired by hardworking mothers who have to juggle a career and kids.
 
 **Tech used**
 
