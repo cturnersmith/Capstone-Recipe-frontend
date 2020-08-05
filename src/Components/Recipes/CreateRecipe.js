@@ -28,7 +28,7 @@ class CreateRecipe extends Component {
             
        
         <form classname = "form" onSubmit={(e) => this.props.handleSubmit(e,this.state)}>
-            <p1>Select Category from Dropdown</p1>
+            <p>Select Category from Dropdown</p>
             <select className = "Dropdown" name = "category" onChange={this.handleChange}>
             <option value = "dessert">Desserts</option>
             <option value = "sidedish">Sides</option>

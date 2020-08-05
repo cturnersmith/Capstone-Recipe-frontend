@@ -125,31 +125,6 @@ class App extends Component {
 
     
 
-    // handleSignup = async (e, user) => {
-    //   e.preventDefault();
-    //   const registerUser = await registerUser(user);
-    //   this.setState = ({
-    //       loggedIn:true,
-    //       user: registerUser
-        
-    //   })
-    //   this.props.history.push('/profile')
-    // }
-  
-    // handleLogin = async (e, user) => {
-    //   e.preventDefault();
-    //   const loadedUser = await loginUser(user);
-    //   const userProfile = await this.handleProfile()
-  
-    //   if (loadedUser) {
-    //     this.setState({
-    //       loggedIn:true,
-    //       userProfile: userProfile
-    //     }) 
-    //   }
-    //   this.props.history.push('/profile');
-    // }
-  // }
   
   render() {
     console.log(this.state.userRecipes);
@@ -159,25 +134,7 @@ class App extends Component {
 
       <Header loggedIn = {this.state.loggedIn} />
         
-        {/* <header className = "Header">
-        <h1>Buzy Mom Recipes</h1>
-        <nav className = "Nav">
-            <NavLink to='/login'>Login</NavLink>
-            <br></br>
-            <NavLink to='/register'>Register Here</NavLink>
-            <br></br>
-            <NavLink to='/aboutus'>About Us</NavLink>
-            <br></br>
-            <NavLink to='/home'>Logout</NavLink>
-            </nav>
-        <h2>An app full of yummy recipes for the busy working mom</h2>
-        
-        </header>
-
-
-        {/* <Route path = "/profile" render= {() => {
-          return <Form getRecipe = {this.getRecipe}/>
-        }} /> */} 
+  
 
         <Route exact path = '/'><HomePage /></Route>
 
@@ -199,16 +156,13 @@ class App extends Component {
           createRecipe = {this.createRecipe}
           userRecipes = {this.state.userRecipes}/>
 
-        // <Route path = "/profile" render= {() => {
-        //     return <CreateRecipe handleSubmit = {this.CreateRecipe} />
     
         }} />
 
         <Route path ="/recipes" render = {() => {
           return <ShowRecipes allRecipes = {this.state.allRecipes}/>
         }} />
-{/* 
-         <UserProfile handleSubmit = {this.CreateRecipe} username = {this.state.username} /> */}
+
 
     
 

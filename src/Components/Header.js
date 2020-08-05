@@ -12,7 +12,7 @@ const Header = (props) => {
                 <li><NavLink to='/profile'>Profile</NavLink></li>
                 <li><NavLink to='/aboutus'>About Us</NavLink></li>
                 <li><NavLink to='/'>Home</NavLink></li>
-                <li><NavLink to='/logout'>Logout</NavLink></li>
+                <li><NavLink to='/'>Logout</NavLink></li>
             </ul>
             : 
             <ul className="site-header--menu">

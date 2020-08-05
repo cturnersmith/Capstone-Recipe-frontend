@@ -29,7 +29,11 @@ getRecipebyId = async(recipeId) => {
             <h1>Recipes</h1>
            {/* <Form /> */}
             {this.props.allRecipes && this.props.allRecipes.map(recipe => {
-                return (<Link to={`/recipes/${recipe._id}`}><h3>{recipe.recipeName}</h3></Link>
+                return (<Link to={`/recipes/${recipe._id}`}>
+                    <h3>{recipe.recipeName} </h3> 
+                    <img src = {recipe.image} height="200px"/>
+                </Link>
+                
                 )
             
                 

@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Homemade+Apple&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
   .pics{
       display: flex;
@@ -12,6 +13,11 @@
       justify-content: space-evenly;
       margin: 25px 25px 25px 25px;
   
+  }
+
+  .profile {
+    font-family: 'Courgette', cursive;
+    color:darkred;
   }
 
   .Button{
@@ -32,17 +38,18 @@ display: flex;
 
 .site-header--menu{
     margin: 0 20px;
-    display:flex-end;
+    display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     font-size: 24px;
     font-family: 'Luckiest Guy', cursive;
     margin: -182px 20px 20px 20px;
-    color: black;
+    color:darkred;
     list-style: none;
     justify-items: right;
     text-transform: capitalize;
     text-decoration: none;
+    align-items: flex-end;
    
   
   }
@@ -67,14 +74,20 @@ font-family: 'Satisfy', cursive;
 }
 
 .login-form{
-    margin: 75px 100px;
-    padding: 30px;
+    margin: 0 auto;
+    padding: 60px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding:10px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     text-align: center;
+    max-width: 320px;
+    padding-bottom: 50%;
+}
+
+.login-form h2{
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .register-form {
@@ -90,10 +103,14 @@ font-family: 'Satisfy', cursive;
 
 
 .FamilyPic img{
-    max-width:25%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-content: center;
+    /* max-width:25%;
     max-height:25%;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 }
 
 body{
@@ -138,40 +155,17 @@ html {
   }
 
   .All-Container {
-    position: relative;
+    /* position: relative; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 25px auto 0;
     width: 100px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-items: center;
+    
 
   }
   
-  /* .card-container { 
-    margin: 25px auto 0;
-    position: absolute;
-    width: 692px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card-container2{
-    margin: 25px auto 0;
-    position: absolute;
-    width: 692px;
-    display: inline-block;
-    flex-direction: row;
-  }
-
-  .card-container3{
-    margin: 25px auto 0;
-    position: absolute;
-    width: 692px;
-    display: inline-block;
-    align-items: flex-end;
-    flex-direction: column;
-  }
-   */
   .card {
     background-color: #fff;
     padding: 30px;
@@ -217,6 +211,7 @@ html {
     font-weight: 300;
     line-height: 60px;
     margin: 10px 0;
+    text-align: center;
   }
   
   .card-description {
@@ -301,24 +296,20 @@ html {
   }
 
   .About-Container{
-    background: darkred;
-    display: inline-block;
-   
+    background:lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin:0 25%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+   justify-items: center;
   }
 
-  /* .Recipe-Container {
-    -webkit-box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
-    -moz-box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
-    box-shadow: 0px 0px 20px 1px rgba(240,241,243,1);
-    border:1px solid #f0f1f3;
-    width: 300px;
-    margin: 50px auto;
-    display: inline-block;
-  } */
 
   .Recipe-Container {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
     position: relative;
     margin: 20px auto;
     padding-top: 40px;
@@ -326,7 +317,11 @@ html {
     background-color: white;
     box-shadow: 0px 0px 5px 0px #888;
     font-family: 'Homemade Apple', cursive;
-
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: grid;
+    text-align: center;
   }
   
   /* styling red vertical line */
@@ -367,10 +362,26 @@ html {
     box-shadow: 0px 0px 5px 0px #888;
     font-family: 'Homemade Apple', cursive;
 
-  }
-
-  .Category{ 
-    font-family: 'Fjalla One', sans-serif;
 
   }
 
+ .recipes{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color:darkred;
+   font-family: 'Courgette', cursive;
+
+ }
+
+.Recipe-Container img{
+ width: 300px;
+ align-content: center;
+}
+
+.form p{
+  font-weight: bold;
+}
+.profile p {
+  font-weight: bold;
+}

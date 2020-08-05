@@ -28,10 +28,9 @@ class UserProfile extends Component {
         console.log(this.props.userRecipes);
         return(
             <div>
-        <h1>Welcome to The Buzy Mom Recipe App, {this.props.user.username} </h1>
+        <h1 className = "profile">Welcome to The Buzy Mom Recipe App, {this.props.user.username} </h1>
         <p>Name: {this.props.user.name}</p>
-        <p>Profile Pic: {this.props.user.img}</p>
-        {/* <h2>Create your Recipes below. </h2> */}
+        <p className = "pic">Profile Pic: {this.props.user.img}</p>
         <img src = {this.state.img} />
         <form className = "profile-form" onSubmit ={(e) => this.props.updateProfile(e, this.state)}>
                     <input type ="text" 
@@ -63,19 +62,16 @@ class UserProfile extends Component {
 
         
         
-                {/* <Form /> */}
+             
                <CreateRecipe handleSubmit = {this.props.createRecipe} /> 
-               {/* <UserProfile handleSubmit = {this.CreateRecipe} username = {this.state.username} /> */}
-               {/* <Form /> */}
                {this.props.userRecipes && this.props.userRecipes.map(recipe => {
                   return( <div className = "Recipe-Container" >
-                   <p> Category:{recipe.category} </p>
-                   <p> Recipe Name: {recipe.recipeName} </p>
+                   <p className = "category"> Recipe Name: {recipe.recipeName} </p>
+                   <p></p> <img src={recipe.image} width="100px"/>
                    <p> Ingredients: {recipe.ingredients}</p>
                    <p> Cook Time: {recipe.cookTime}</p>
                    <p> Rating: {recipe.rating}</p>
-                   <p> Image: {recipe.image}</p>
-                   <p> Instructions: {recipe.instuctions} </p>
+                   <p> Instructions: {recipe.instructions} </p>
    
                </div>
                   )

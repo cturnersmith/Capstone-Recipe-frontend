@@ -39,15 +39,7 @@ class LoginForm extends Component {
         />
         <input type="submit" value="Login" />
 
-        {/* <Route path = "/login" render= {() => {
-            return <CreateRecipe handleSubmit = {this.CreateRecipe} />
-        }} /> */}
-        {/* <Link to='/login'>Login</Link>
-        <Link to='/home'>
-            <button type = "button">
-                    LogOut!
-            </button>
-        </Link> */}
+       
       </form>
     )
   }
