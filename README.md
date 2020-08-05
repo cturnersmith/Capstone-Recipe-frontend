@@ -55,4 +55,4 @@ Buzy Moms Recipe app is a full stack application inspired by hardworking mothers
  
  **Important Links**
 ===================================================================================================================================
- ![](https://trello.com/b/oxQ5GcIe/recipe-app)
+ https://trello.com/b/oxQ5GcIe/recipe-app
